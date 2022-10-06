@@ -19,6 +19,7 @@
 Ход работы:
 
 '''py
+In [ ]
 import gspread as gsp
 import numpy as np
 
@@ -115,6 +116,7 @@ while i <= len(mon):
 ![image](https://user-images.githubusercontent.com/94719239/194374692-2d128e6e-943c-4b23-8de2-de2fc402401f.png)
 
 '''c#
+In [ ]
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
