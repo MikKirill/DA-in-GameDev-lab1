@@ -18,7 +18,8 @@
 ### Заполнить гугл таблицу с помощью python кода
 Ход работы:
 
-'''py
+```py
+
 In [ ]
 import gspread as gsp
 import numpy as np
@@ -40,7 +41,8 @@ while i <= len(mon):
         sh.sheet1.update(('B' + str(i)), str(price[i-1]))
         sh.sheet1.update(('C' + str(i)), str(tempInf))
         print(tempInf)
-'''
+```
+
 ![image](https://user-images.githubusercontent.com/94719239/194373796-b8e7c788-88a7-4d66-a4bd-64725a66fdc7.png)
 
 
@@ -115,7 +117,7 @@ while i <= len(mon):
 ```
 ![image](https://user-images.githubusercontent.com/94719239/194374692-2d128e6e-943c-4b23-8de2-de2fc402401f.png)
 
-'''c#
+```c#
 In [ ]
 using System.Collections;
 using System.Collections.Generic;
@@ -208,7 +210,7 @@ public class NewBehaviourScript : MonoBehaviour
 }
 ![image](https://user-images.githubusercontent.com/94719239/194375475-3e33ae91-82f9-471a-87e2-49e881eb765d.png)
 
-,,,
+```
 ## Выводы
 
 Одна полусмешная шутка не может сгладить отсутствие навыка
